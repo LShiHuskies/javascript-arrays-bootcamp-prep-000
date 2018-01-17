@@ -15,8 +15,8 @@ return newarray
                      return array
                      }
                      function destructivelyAddElementToEndOfArray (array, element) {
-                       var superheroines = ["catwoman", "she-hulk", "mystique"]
-                       return superheroines.push("wonder woman")
+                       array.unshift(element)
+                       return array
                      }
                      function accessElementInArray (array, index) {
                        var entrepreneurs = ["Elizabeth Holmes", "Laurene Powell Jobs", "Arianna Huffington"]
