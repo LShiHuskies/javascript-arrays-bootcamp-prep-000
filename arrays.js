@@ -34,6 +34,5 @@ return newarray
                        return array
                      }
                      function removeElementFromEndOfArray (array) {
-                       iceCreams.pop
                        return array.pop
                      }
