@@ -23,8 +23,8 @@ return newarray
                        return array[index]
                      }
                      function destructivelyRemoveElementFromBeginningOfArray (array) {
-                       const days = ["Monday", "Tuesday", "Wednesday"]
-                       return days.unshift()
+                       array.shift
+                       return array
                      }
                      function removeElementFromBeginningOfArray (array) {
                        var cats = ["Milo", "Garfield", "Otis"]
