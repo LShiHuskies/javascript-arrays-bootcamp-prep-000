@@ -11,8 +11,8 @@ return array
                        return [cats, "Felix"]
                      }
                      function destructivelyAddElementToBeginningOfArray (array, element) {
-                       var cats = ["Milo", "Garfield"]
-                       return cats.unshift("Felix")
+                     array.unshift(element)
+                     return array
                      }
                      function destructivelyAddElementToEndOfArray (array, element) {
                        var superheroines = ["catwoman", "she-hulk", "mystique"]
