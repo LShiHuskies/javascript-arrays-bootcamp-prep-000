@@ -5,7 +5,7 @@ var chocolateBars = ["snickers",
 function addElementToBeginningOfArray (array, element) {
 var cities
 var moreCities = cities.unshift("Philadelphia")
-return cities
+return moreCities
 }
                      function addElementToEndOfArray (array, element) {
                        var cats = ["Milo", "Garfield"]
