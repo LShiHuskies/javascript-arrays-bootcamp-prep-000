@@ -34,11 +34,6 @@ return newarray
                        return array
                      }
                      function removeElementFromEndOfArray (array) {
-                       var iceCreams = ["chocolate", "vanilla", "raspberry"]
-                       return iceCreams.slice(0,iceCreams.length - 1)
-                     }
-                     function removeElementFromEndOfArray (array) {
-                       var iceCreams = ["chocolate", "vanilla", "raspberry"]
                        iceCreams.pop
-                       return iceCreams
+                       return array.pop
                      }
