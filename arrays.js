@@ -19,9 +19,8 @@ return newarray
                        return array
                      }
                      function accessElementInArray (array, index) {
-                       var entrepreneurs = ["Elizabeth Holmes", "Laurene Powell Jobs", "Arianna Huffington"]
-                       console.log(entrepreneurs[2])
-                       return "Arianna Huffington"
+                       console.log(array[index])
+                       return array[index]
                      }
                      function destructivelyRemoveElementFromBeginningOfArray (array) {
                        const days = ["Monday", "Tuesday", "Wednesday"]
