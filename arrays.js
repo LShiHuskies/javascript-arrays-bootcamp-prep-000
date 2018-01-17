@@ -4,7 +4,7 @@ var chocolateBars = ["snickers",
                      "skittles"]
 function addElementToBeginningOfArray (array, element) {
 const cities = ["New York", "San Francisco"]
-return moreCities = ["Philadelphia", ...cities]
+return const moreCities = ["Philadelphia", ...cities]
 }
                      function addElementToEndOfArray (array, element) {
                        var cats = ["Milo", "Garfield"]
