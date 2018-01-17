@@ -34,5 +34,5 @@ return newarray
                        return array
                      }
                      function removeElementFromEndOfArray (array) {
-                       return array.pop
+                       return array.pop()
                      }
