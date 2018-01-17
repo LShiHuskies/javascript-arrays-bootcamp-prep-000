@@ -27,9 +27,8 @@ return newarray
                        return array
                      }
                      function removeElementFromBeginningOfArray (array) {
-                       var cats = ["Milo", "Garfield", "Otis"]
-                       cats.slice(1)
-                       return cats
+                       array.slice(0)
+                       return array
                      }
                      function destructivelyRemoveElementFromEndOfArray(array) {
                        var iceCreams = ["chocolate", "vanilla", "raspberry"]
