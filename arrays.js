@@ -3,7 +3,7 @@ var chocolateBars = ["snickers",
                      "kitkat",
                      "skittles"]
 function addElementToBeginningOfArray (array, element) {
-var cities
+var cities = [1]
 var moreCities = cities.unshift("Philadelphia")
 return moreCities
 }
