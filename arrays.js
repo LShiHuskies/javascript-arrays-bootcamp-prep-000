@@ -3,7 +3,7 @@ var chocolateBars = ["snickers",
                      "kitkat",
                      "skittles"]
 function addElementToBeginningOfArray (array, element) {
-return 'foo' + [1]
+return fool = 'foo' + [1]
 }
                      function addElementToEndOfArray (array, element) {
                        var cats = ["Milo", "Garfield"]
