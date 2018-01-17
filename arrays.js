@@ -30,8 +30,7 @@ return newarray
                        return array.slice(1)
                      }
                      function destructivelyRemoveElementFromEndOfArray(array) {
-                       var iceCreams = ["chocolate", "vanilla", "raspberry"]
-                       return iceCreams- iceCreams.pop
+                       return array.pop
                      }
                      function removeElementFromEndOfArray (array) {
                        var iceCreams = ["chocolate", "vanilla", "raspberry"]
