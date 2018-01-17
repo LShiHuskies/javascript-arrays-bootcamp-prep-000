@@ -7,8 +7,8 @@ var newarray = [element, ...array]
 return newarray
 }
                      function addElementToEndOfArray (array, element) {
-                       var cats = ["Milo", "Garfield"]
-                       return [cats, "Felix"]
+                       var newarray = [...array, element]
+                       return newarray
                      }
                      function destructivelyAddElementToBeginningOfArray (array, element) {
                      array.unshift(element)
